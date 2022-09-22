@@ -31,7 +31,7 @@ const B4footer = () => {
                 {/* testimony 1st starts here */}
                 <div className="carousel-item w-100 active">
                     <div className="card border-0  w-100">
-                    <img style={{height:500}} className="d-block w-100" src={cl1} alt="logo"/>
+                    <img style={{height:810}} className="d-block w-100" src={cl1} alt="logo"/>
                     <div className="card-body text-dark text-opacity-75 ps-5 pe-5">
                         <h5 className="card-title ps-4 erp text-danger">
                         Jovit Tambolero{" "}
@@ -72,7 +72,7 @@ const B4footer = () => {
                 {/* testimony 2nd starts here */}
                 <div className="carousel-item w-100">
                     <div className="card border-0 w-100">
-                    <img style={{height:500}} className="d-block w-100" src={cl2} alt="logo"/>
+                    <img style={{height:810}} className="d-block w-100" src={cl2} alt="logo"/>
                     <div className="card-body container-fluid text-dark text-opacity-75 ps-5 pe-5">
                         <h5 className="card-title text-danger erp ps-4">
                         Bertong Labra{" "}
