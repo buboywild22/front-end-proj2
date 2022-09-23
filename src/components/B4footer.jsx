@@ -1,6 +1,9 @@
 import React from 'react';
 import cl1 from './image/cl1.jpg'
 import cl2 from './image/cl2.jpg'
+import cl3 from './image/cl3.jpg'
+import cl4 from './image/cl4.png'
+import c5 from './image/c5.avif'
 const B4footer = () => {
     return (
             <div className="border border-dark border-opacity-25 container-fluid" id="about">
@@ -25,7 +28,24 @@ const B4footer = () => {
                     data-bs-slide-to={1}
                     aria-label="Slide 2"
                 />
-                
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to={2}
+                    aria-label="Slide 3"
+                />
+                 <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to={3}
+                    aria-label="Slide 4"
+                />
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to={4}
+                    aria-label="Slide 5"
+                />
                 </div>
                 <div className="carousel-inner">
                 {/* testimony 1st starts here */}
@@ -78,6 +98,138 @@ const B4footer = () => {
                         Bertong Labra{" "}
                         <span>
                             <p className="text-dark fs-6">CCTV Operator</p>
+                        </span>
+                        </h5>
+                        <p className="card-text ps-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                        excepturi.
+                        </p>
+                        <br />
+                    </div>
+                    </div>
+                    <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+                    >
+                    <span
+                        className="carousel-control-prev-icon "
+                        aria-hidden="true"
+                    />
+                    <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                    >
+                    <span
+                        className="carousel-control-next-icon "
+                        aria-hidden="true"
+                    />
+                    <span className="visually-hidden">Next</span>
+                    </button>
+                </div>
+                {/* testimony 2nd end here */}
+                {/* testimony 3rd starts here */}
+                <div className="carousel-item w-100">
+                    <div className="card border-0 w-100">
+                    <img style={{height:810}} className="d-block w-100" src={cl3} alt="logo"/>
+                    <div className="card-body container-fluid text-dark text-opacity-75 ps-5 pe-5">
+                        <h5 className="card-title text-danger erp ps-4">
+                        Ambo{" "}
+                        <span>
+                            <p className="text-dark fs-6">Security Officer</p>
+                        </span>
+                        </h5>
+                        <p className="card-text ps-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                        excepturi.
+                        </p>
+                        <br />
+                    </div>
+                    </div>
+                    <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+                    >
+                    <span
+                        className="carousel-control-prev-icon "
+                        aria-hidden="true"
+                    />
+                    <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                    >
+                    <span
+                        className="carousel-control-next-icon "
+                        aria-hidden="true"
+                    />
+                    <span className="visually-hidden">Next</span>
+                    </button>
+                </div>
+                {/* testimony 2nd end here */}
+                {/* testimony 4th starts here */}
+                <div className="carousel-item w-100">
+                    <div className="card border-0 w-100">
+                    <img style={{height:810}} className="d-block w-100" src={cl4} alt="logo"/>
+                    <div className="card-body container-fluid text-dark text-opacity-75 ps-5 pe-5">
+                        <h5 className="card-title text-danger erp ps-4">
+                        Nina{" "}
+                        <span>
+                            <p className="text-dark fs-6">Security Officer</p>
+                        </span>
+                        </h5>
+                        <p className="card-text ps-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                        excepturi.
+                        </p>
+                        <br />
+                    </div>
+                    </div>
+                    <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+                    >
+                    <span
+                        className="carousel-control-prev-icon "
+                        aria-hidden="true"
+                    />
+                    <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                    >
+                    <span
+                        className="carousel-control-next-icon "
+                        aria-hidden="true"
+                    />
+                    <span className="visually-hidden">Next</span>
+                    </button>
+                </div>
+                {/* testimony 2nd end here */}
+                {/* testimony 5th starts here */}
+                <div className="carousel-item w-100">
+                    <div className="card border-0 w-100">
+                    <img style={{height:810}} className="d-block w-100" src={c5} alt="logo"/>
+                    <div className="card-body container-fluid text-dark text-opacity-75 ps-5 pe-5">
+                        <h5 className="card-title text-danger erp ps-4">
+                        Lorie Julius Eva Antonette Buboy{" "}
+                        <span>
+                            <p className="text-dark fs-6">Management Staff</p>
                         </span>
                         </h5>
                         <p className="card-text ps-4">
